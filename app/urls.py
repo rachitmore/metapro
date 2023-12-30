@@ -15,6 +15,11 @@ urlpatterns = [
 
     path('accounts/', include('accounts.urls')),
     path('backtesting/', include('trading_strategies.urls')),
+    path('about_us/', include('about_us.urls')),
+    path('contact_us/', include('contact_us.urls')),
+    path('help/', include('help.urls')),
+    path('service/', include('service.urls')),
+    path('pricing/', include('pricing.urls')),
 ]
 
 if settings.DEBUG:

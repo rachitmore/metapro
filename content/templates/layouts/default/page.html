@@ -28,6 +28,11 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark static-top">
 
     <a class="navbar-brand" href="{% url 'index' %}">{% trans 'Home' %}</a>
+    <a class="navbar-brand" href="{% url 'about_us:about_us' %}">{% trans 'About Us' %}</a>
+    <a class="navbar-brand" href="{% url 'service:services' %}">{% trans 'Services' %}</a>
+    <a class="navbar-brand" href="{% url 'pricing:pricing' %}">{% trans 'Pricing' %}</a>
+    <a class="navbar-brand" href="{% url 'help:help' %}">{% trans 'Help' %}</a>
+    <a class="navbar-brand" href="{% url 'contact_us:contact_us' %}">{% trans 'Contact Us' %}</a>
     <a class="navbar-brand" href="{% url 'trading_strategies:backtest' %}">{% trans 'Backtesting' %}</a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault">

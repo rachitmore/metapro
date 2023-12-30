@@ -1,0 +1,10 @@
+{% extends 'layouts/default/page.html' %}
+
+{% block content %}
+    <h2>Contact Us</h2>
+    <form method="post" action="{% url 'contactus:contact_us' %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Submit</button>
+    </form>
+{% endblock %}

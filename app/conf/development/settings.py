@@ -11,7 +11,7 @@ CONTENT_DIR = join(BASE_DIR, 'content')
 SECRET_KEY = 'NhfTvayqggTBPswCXXhWaN69HuglgZIkM'
 
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["metaprograming"]
 
 SITE_ID = 1
 
@@ -33,6 +33,11 @@ INSTALLED_APPS = [
 
     #backtesting
     'trading_strategies',
+    'about_us',
+    'contact_us',
+    'help',
+    'pricing',
+    'service',
 ]
 
 MIDDLEWARE = [

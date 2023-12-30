@@ -1,5 +1,6 @@
 django
+django-bootstrap4
 numpy 
 pandas
-matplotlib 
+matplotlib
 TA-Lib

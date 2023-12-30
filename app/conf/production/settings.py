@@ -31,6 +31,13 @@ INSTALLED_APPS = [
        
     #backtesting
     'trading_strategies',
+
+    'about_us',
+    'contact_us',
+    'help',
+    'pricing',
+    'service',
+]
 ]
 
 MIDDLEWARE = [
